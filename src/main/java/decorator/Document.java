@@ -1,5 +1,7 @@
 package decorator;
 
+import java.sql.SQLException;
+
 public interface Document {
-    String parse();
+    String parse() throws SQLException;
 }
